@@ -8,12 +8,13 @@ import { Quotes } from '../quotes';
 })
 export class QuoteeComponent implements OnInit {
   quotes:Quotes[]=[
-    new Quotes(1, 'Write it on your heart that every day is the best day in the year.','Inspirational Quote'),
+    new Quotes(1, 'kimbagira', 'sylvie', 'Write it on your heart that every day is the best day in the year.',new Date(2019,1,3)),
    ];
 
    toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
+   
 
   constructor() { }
 

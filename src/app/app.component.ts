@@ -7,9 +7,9 @@ import { Quotes } from './quotes'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-quote:Quotes[]=[
- new Quotes(1,'Write it on your heart that every day is the best day in the year.','Inspirational Quote')
-];
+// quote:Quotes[]=[
+//  new Quotes(1,'Write it on your heart that every day is the best day in the year.','Inspirational Quote')
+// ];
 
 constructor() { }
 

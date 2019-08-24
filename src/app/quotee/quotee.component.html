@@ -1,4 +1,4 @@
-
+<div class="container">
   <h1>QUOTES</h1>
   <hr>
  
@@ -6,5 +6,7 @@
       <li>{{quote.name}}</li>
       <button (click)='toggleDetails(i)'>Toggle Details</button>
       <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isupvote)='upvotequote($event,i)'></app-quote-detail>
+
   </div>
-   
+  <app-quote-form>(addQuote)="addnewQuote($event)"></app-quote-form>
+</div>
