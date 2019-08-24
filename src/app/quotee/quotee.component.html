@@ -3,7 +3,10 @@
   <hr>
  
     <div *ngFor='let quote of quotes;let i = index'>
-      <li>{{quote.name}}</li>
+      <li>{{quote.author}}</li>
+      <li>{{quote.publisher}}</li>
+      <li>{{quote.quote}}</li>
+      <li>{{quote.date}}</li>
       <button (click)='toggleDetails(i)'>Toggle Details</button>
       <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isupvote)='upvotequote($event,i)'></app-quote-detail>
 
