@@ -13,10 +13,13 @@ you should clone to get my code
 
 BDD 
 
-behaviour
+*behaviour
 
 you first go to the webpage,you read the whole pageto know more about it,and do what you are required to do.
 
+*inputs examples
+
+author,publisher,quote,date
 
 
 
