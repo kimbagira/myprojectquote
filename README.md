@@ -29,6 +29,10 @@ LINK OF MY REPOSITORY
 
 *https://github.com/kimbagira/myprojectquote
 
+BUGS
+
+*no bugs
+
 
 ## Development server
 
