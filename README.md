@@ -11,6 +11,15 @@ SETUP/REQUIREMENTS
 
 you should clone to get my code
 
+BDD 
+
+behaviour
+
+you first go to the webpage,you read the whole pageto know more about it,and do what you are required to do.
+
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
