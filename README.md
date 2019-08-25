@@ -1,15 +1,15 @@
 QUOTES
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
+*This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
 AUTHOR
 
-kimbagira sylvie
+*kimbagira sylvie
 
 
 SETUP/REQUIREMENTS
 
-you should clone to get my code
+*you should clone to get my code
 
 BDD 
 
@@ -19,7 +19,11 @@ you first go to the webpage,you read the whole pageto know more about it,and do 
 
 *inputs examples
 
-author,publisher,quote,date
+author,publisher,quote,date.
+
+*outputs
+
+what you required in inputs will display
 
 
 
