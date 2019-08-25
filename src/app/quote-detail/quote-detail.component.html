@@ -1,7 +1,7 @@
 <p>
   {{quote.description}}
 </p>
-<button (click)= 'quoteupvote(true)'>upvote</button>
-<p *ngIf="voteshow">{{votequote}}</p>
-<button (click)= 'quotedownvote(true)'>downvote</button>
-<p *ngIf="voteshow">{{votequote}}</p>
+<p>{{like}}</p>
+<p>{{dislike}}</p>
+<button (click)= 'upvotequote()'>upvote</button>
+<button (click)= 'downvotequote()'>downvote</button>

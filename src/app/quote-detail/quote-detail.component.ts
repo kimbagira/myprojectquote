@@ -21,21 +21,15 @@ export class QuoteDetailComponent implements OnInit {
 
 
   //upquote
-  votequote= 0;
-  voteshow= true;
-
-voteShow(){
-  this.voteshow= true;
-  return this.votequote= this.votequote+ 1;
+  like= 0;
+  upvotequote(){
+  this.like++;
 }
 
 //downquote
-downquote= 0;
-downshow= true;
-
-downShow(){
-this.downshow= true;
-return this.downquote= this.downquote+ 1;
+dislike= 0;
+downvotequote(){
+this.dislike++;
 }
 
   constructor() { }
