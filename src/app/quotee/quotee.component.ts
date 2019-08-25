@@ -17,14 +17,19 @@ export class QuoteeComponent implements OnInit {
     quote.completeDate = new Date(quote.completeDate)
     this.quotes.push(quote)
   }
-    
-
-
-
-   toggleDetails(index){
+  toggleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
    
+  deleteQuote(isComplete, index){
+    if (isComplete) {
+      let toDelete = confirm('are you sure you want to delete ${this.quotes[index].name}?')
+      if(toDelete){
+        this.quotes.splice(index,1)
+      
+      } 
+    }
+  }
 
   constructor() { }
 

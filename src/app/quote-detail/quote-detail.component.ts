@@ -7,30 +7,25 @@ import { Quotes } from '../quotes';
 })
 export class QuoteDetailComponent implements OnInit {
   @Input() quote: Quotes;
-  @Output() isupvote = new EventEmitter<boolean>();
-  quoteupvote(upvote:boolean){
-    this.isupvote.emit(upvote);
-  }
-
+  @Output() isComplete = new EventEmitter<boolean>();
 
   @Input() quotes: Quotes;
-  @Output() isdownvote = new EventEmitter<boolean>();
-  quotedownvote(downvote:boolean){
-    this.isdownvote.emit(downvote);
-  }
 
-
-  //upquote
   like= 0;
   upvotequote(){
   this.like++;
 }
 
-//downquote
+
 dislike= 0;
 downvotequote(){
 this.dislike++;
 }
+quoteDelete(deleted:boolean){
+  this.isComplete.emit(deleted);
+}
+
+
 
   constructor() { }
 
