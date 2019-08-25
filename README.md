@@ -27,7 +27,7 @@ what you required in inputs will display
 
 LINK OF MY REPOSITORY
 
-*
+*https://github.com/kimbagira/myprojectquote
 
 
 ## Development server
