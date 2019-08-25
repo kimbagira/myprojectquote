@@ -1,17 +1,17 @@
-QUOTES
+## QUOTES
 
 *This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
-AUTHOR
+## AUTHOR
 
 *kimbagira sylvie
 
 
-SETUP/REQUIREMENTS
+## SETUP/REQUIREMENTS
 
 *you should clone to get my code
 
-BDD 
+## BDD 
 
 *behaviour
 
@@ -25,43 +25,43 @@ author,publisher,quote,date.
 
 what you required in inputs will display
 
-LINK OF MY REPOSITORY
+## LINK OF MY REPOSITORY
 
 *https://github.com/kimbagira/myprojectquote
 
-BUGS
+## BUGS
 
 *no bugs
 
-TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
 *angular
 
 
-## Development server
+## DEVELOPMENT SERVER
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+*Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## CODE SCAFFOLDING
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+*Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## BUILD
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+*Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## RUNNING UNIT TESTS
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+*Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## RUNNING END-TO-END TESTS
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+*Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## FURTHER HELP
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-LICENCE
+## LICENCE
 
 copyright(c)1019kimbagira sylvie
