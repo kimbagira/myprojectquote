@@ -8,7 +8,7 @@ import { Quotes } from '../quotes';
 })
 export class QuoteeComponent implements OnInit {
   quotes:Quotes[]=[
-    new Quotes(1, 'kimbagira', 'sylvie', 'Write it on your heart that every day is the best day in the year.',new Date(2019,1,3)),
+    new Quotes(1, 'kimbagira', 'sylvie', 'Write it on your heart that every day is the best day in the year.',new Date()),
    ];
 
    addNewQuotes(quote){
