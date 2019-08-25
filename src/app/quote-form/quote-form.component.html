@@ -1,18 +1,17 @@
-<div class="container-fluid">
+<!-- <div class="container-fluid">
     <h2 class="text-center">Create a new Quote</h2>
-    <hr>
-    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+    <hr> -->
+    <form (ngSubmit)='submitQuotes()' #quoteForm='ngForm'>
          <div class="form-group">
   
             <label for="name">Author</label>
-            <input type="text" required class="form-control" id="Author" [(ngModel)]="newQuote.author" name="author" #Author='ngModel'>
-  
+            <input type="text" required class="form-control" id="Syl" [(ngModel)]="newQuotes.Author" name="Author" #Author='ngModel'>
         </div>
 
         <div class="form-group">
   
-            <label for="name">Publisher</label>
-            <input type="text" required class="form-control" id="Publisher" [(ngModel)]="newQuote.publisher" name="publisherr" #Publisher='ngModel'>
+            <label for="publisher">Publisher</label>
+            <input type="text" required class="form-control" id="Publisher" [(ngModel)]="newQuotes.Publisher" name="Publisher" #Publisher='ngModel'>
   
         </div>
 
@@ -20,17 +19,17 @@
         <div class="form-group">
   
             <label for="quote">Quote</label>
-            <input type="text" required class="form-control" id="Quote" [(ngModel)]="newQuote.quote" name="quote" #Quote='ngModel'>
+            <input type="text" required class="form-control" id="Quote" [(ngModel)]="newQuotes.Quotes" name="Quotes" #Quotes='ngModel'>
   
         </div>
         <div class="form-group">
   
             <label for="date">Date</label>
-            <input type="date" required class="form-control" id="Date" [(ngModel)]="newQuote.date" name="date" #Date='ngModel'>
+            <input type="date" required class="form-control" id="Date" [(ngModel)]="newQuotes.Date" name="Date" #Date='ngModel'>
   
         </div>
 
     
        <button type="submit" class="btn btn-Submit">Submit</button>
     </form>
-  </div>
+  <!-- </div> -->

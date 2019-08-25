@@ -11,13 +11,13 @@ export class QuoteeComponent implements OnInit {
     new Quotes(1, 'kimbagira', 'sylvie', 'Write it on your heart that every day is the best day in the year.',new Date(2019,1,3)),
    ];
 
-   addNewQuote(quote){
+   addNewQuotes(quote){
     let quoteLength = this.quotes.length;
     quote.id = quoteLength+1;
     quote.completeDate = new Date(quote.completeDate)
     this.quotes.push(quote)
   }
-
+    
 
 
 

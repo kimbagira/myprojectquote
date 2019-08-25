@@ -13,11 +13,11 @@ export class QuoteDetailComponent implements OnInit {
   }
 
 
-  // @Input() quote: Quotes;
-  // @Output() isdownvote = new EventEmitter<boolean>();
-  // quotedownvote(downvote:boolean){
-  //   this.isdownvote.emit(downvote);
-  // }
+  @Input() quotes: Quotes;
+  @Output() isdownvote = new EventEmitter<boolean>();
+  quotedownvote(downvote:boolean){
+    this.isdownvote.emit(downvote);
+  }
 
 
   //upquote
