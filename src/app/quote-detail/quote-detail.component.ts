@@ -9,7 +9,7 @@ export class QuoteDetailComponent implements OnInit {
   @Input() quote: Quotes;
   @Output() isComplete = new EventEmitter<boolean>();
 
-  @Input() quotes: Quotes;
+  // @Input() quotes: Quotes;
 
   like= 0;
   upvotequote(){
