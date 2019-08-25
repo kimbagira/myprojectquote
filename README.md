@@ -33,6 +33,10 @@ BUGS
 
 *no bugs
 
+TECHNOLOGIES USED
+
+*angular
+
 
 ## Development server
 
